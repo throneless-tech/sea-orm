@@ -34,8 +34,8 @@ tracing = { version = "0.1", default-features = false, features = ["attributes",
 rust_decimal = { version = "1", default-features = false, optional = true }
 bigdecimal = { version = "0.4", default-features = false, optional = true }
 sea-orm-macros = { version = "~1.1.19", path = "sea-orm-macros", default-features = false, features = ["strum"] }
-sea-query = { git = "https://github.com/throneless-tech/sea-query", rev = "7bd173d593c97299b58b9a746a01854507894885", default-features = false, features = ["thread-safe", "hashable-value", "backend-mysql", "backend-postgres", "backend-sqlite"] }
-sea-query-binder = { git = "https://github.com/throneless-tech/sea-query", rev = "7bd173d593c97299b58b9a746a01854507894885", default-features = false, optional = true }
+sea-query = { git = "https://github.com/throneless-tech/sea-query", rev = "c3a2a5b8c6e964c527005af6b1ea0e507aefee54", default-features = false, features = ["thread-safe", "hashable-value", "backend-mysql", "backend-postgres", "backend-sqlite"] }
+sea-query-binder = { git = "https://github.com/throneless-tech/sea-query", rev = "c3a2a5b8c6e964c527005af6b1ea0e507aefee54", default-features = false, optional = true }
 strum = { version = "0.26", default-features = false }
 serde = { version = "1.0", default-features = false }
 serde_json = { version = "1.0", default-features = false, optional = true }
